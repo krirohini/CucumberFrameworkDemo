@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="0.529">
+    <testcase classname="Amazon Search" name="Search a product" time="0.102">
+        <system-out><![CDATA[Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "Apple MacBook Pro" and price 1000....passed
+Then Product with name "Apple MacBook Pro" should be displayed..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Search" name="Search a product iPhone" time="0.003">
+        <system-out><![CDATA[Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "iPhone" and price 1200...............passed
+Then Product with name "iPhone" should be displayed.........................passed
+Then Order id is 12345 and user name is "rohini"............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Search" name="Search a product" time="0.006">
+        <system-out><![CDATA[Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "Apple MacBook Pro" and price 1000....passed
+Then Product with name "Apple MacBook Pro" should be displayed..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Amazon Search" name="Search a product iPhone" time="0.002">
+        <system-out><![CDATA[Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "iPhone" and price 1200...............passed
+Then Product with name "iPhone" should be displayed.........................passed
+Then Order id is 12345 and user name is "rohini"............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uber Booking feature" name="Booking Sedan Cab" time="0.024">
+        <system-out><![CDATA[Given User wants to select a car type "Sedan" from Uber Application.........passed
+When User selects the car type "Sedan" and pickup location "Banglore" to drop location "Pune".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 1000.89 USD..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Uber Booking feature" name="Booking SUV Cab" time="0.002">
+        <system-out><![CDATA[Given User wants to select a car type "SUV" from Uber Application...........passed
+When User selects the car type "Sedan" and pickup location "Banglore" to drop location "Pune".passed
+Then Driver starts the journey..............................................passed
+And Driver ends the journey.................................................passed
+Then User pays 1000.89 USD..................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
